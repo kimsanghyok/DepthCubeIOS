@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72B50B91CD110BE006A63F3 /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72B50B81CD110BE006A63F3 /* Cube.swift */; };
+		B775C2FA1CC00F2C00DEF1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775C2F91CC00F2C00DEF1B8 /* AppDelegate.swift */; };
+		B775C2FC1CC00F2C00DEF1B8 /* RectangleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B775C2FB1CC00F2C00DEF1B8 /* RectangleShader.fsh */; };
+		B775C2FE1CC00F2C00DEF1B8 /* RectangleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B775C2FD1CC00F2C00DEF1B8 /* RectangleShader.vsh */; };
+		B775C3001CC00F2C00DEF1B8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775C2FF1CC00F2C00DEF1B8 /* GameViewController.swift */; };
+		B775C3031CC00F2C00DEF1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B775C3011CC00F2C00DEF1B8 /* Main.storyboard */; };
+		B775C3051CC00F2D00DEF1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B775C3041CC00F2D00DEF1B8 /* Assets.xcassets */; };
+		B775C3081CC00F2D00DEF1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B775C3061CC00F2D00DEF1B8 /* LaunchScreen.storyboard */; };
+		B775C3101CC010A200DEF1B8 /* VertexInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775C30F1CC010A200DEF1B8 /* VertexInfo.swift */; };
+		B775C3121CC0115A00DEF1B8 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775C3111CC0115A00DEF1B8 /* Rectangle.swift */; };
+		B775C3141CC01A3B00DEF1B8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B775C3131CC01A3B00DEF1B8 /* GLKit.framework */; };
+		B775C3161CC01A4000DEF1B8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B775C3151CC01A4000DEF1B8 /* OpenGLES.framework */; };
+		B775C3181CC01A4500DEF1B8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B775C3171CC01A4500DEF1B8 /* CoreVideo.framework */; };
+		B775C31A1CC01FCE00DEF1B8 /* RectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775C3191CC01FCE00DEF1B8 /* RectangleViewController.swift */; };
+		B775C31E1CC04E8200DEF1B8 /* ColorTrackingCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B775C31D1CC04E8200DEF1B8 /* ColorTrackingCamera.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B72B50B81CD110BE006A63F3 /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		B775C2F61CC00F2C00DEF1B8 /* Rectangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rectangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B775C2F91CC00F2C00DEF1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B775C2FB1CC00F2C00DEF1B8 /* RectangleShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = RectangleShader.fsh; path = Shaders/RectangleShader.fsh; sourceTree = "<group>"; };
+		B775C2FD1CC00F2C00DEF1B8 /* RectangleShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = RectangleShader.vsh; path = Shaders/RectangleShader.vsh; sourceTree = "<group>"; };
+		B775C2FF1CC00F2C00DEF1B8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B775C3021CC00F2C00DEF1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B775C3041CC00F2D00DEF1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B775C3071CC00F2D00DEF1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B775C3091CC00F2D00DEF1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B775C30F1CC010A200DEF1B8 /* VertexInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VertexInfo.swift; sourceTree = "<group>"; };
+		B775C3111CC0115A00DEF1B8 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		B775C3131CC01A3B00DEF1B8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B775C3151CC01A4000DEF1B8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B775C3171CC01A4500DEF1B8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B775C3191CC01FCE00DEF1B8 /* RectangleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleViewController.swift; sourceTree = "<group>"; };
+		B775C31B1CC04E8100DEF1B8 /* Rectangle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rectangle-Bridging-Header.h"; sourceTree = "<group>"; };
+		B775C31C1CC04E8200DEF1B8 /* ColorTrackingCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTrackingCamera.h; sourceTree = "<group>"; };
+		B775C31D1CC04E8200DEF1B8 /* ColorTrackingCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTrackingCamera.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B775C2F31CC00F2C00DEF1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B775C3181CC01A4500DEF1B8 /* CoreVideo.framework in Frameworks */,
+				B775C3161CC01A4000DEF1B8 /* OpenGLES.framework in Frameworks */,
+				B775C3141CC01A3B00DEF1B8 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B775C2ED1CC00F2C00DEF1B8 = {
+			isa = PBXGroup;
+			children = (
+				B775C3171CC01A4500DEF1B8 /* CoreVideo.framework */,
+				B775C3151CC01A4000DEF1B8 /* OpenGLES.framework */,
+				B775C3131CC01A3B00DEF1B8 /* GLKit.framework */,
+				B775C2F81CC00F2C00DEF1B8 /* Rectangle */,
+				B775C2F71CC00F2C00DEF1B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B775C2F71CC00F2C00DEF1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B775C2F61CC00F2C00DEF1B8 /* Rectangle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B775C2F81CC00F2C00DEF1B8 /* Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				B775C31C1CC04E8200DEF1B8 /* ColorTrackingCamera.h */,
+				B775C31D1CC04E8200DEF1B8 /* ColorTrackingCamera.m */,
+				B775C2F91CC00F2C00DEF1B8 /* AppDelegate.swift */,
+				B775C2FB1CC00F2C00DEF1B8 /* RectangleShader.fsh */,
+				B775C2FD1CC00F2C00DEF1B8 /* RectangleShader.vsh */,
+				B775C2FF1CC00F2C00DEF1B8 /* GameViewController.swift */,
+				B775C3011CC00F2C00DEF1B8 /* Main.storyboard */,
+				B775C3041CC00F2D00DEF1B8 /* Assets.xcassets */,
+				B775C3061CC00F2D00DEF1B8 /* LaunchScreen.storyboard */,
+				B775C3091CC00F2D00DEF1B8 /* Info.plist */,
+				B775C30F1CC010A200DEF1B8 /* VertexInfo.swift */,
+				B775C3111CC0115A00DEF1B8 /* Rectangle.swift */,
+				B775C3191CC01FCE00DEF1B8 /* RectangleViewController.swift */,
+				B775C31B1CC04E8100DEF1B8 /* Rectangle-Bridging-Header.h */,
+				B72B50B81CD110BE006A63F3 /* Cube.swift */,
+			);
+			path = Rectangle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B775C2F51CC00F2C00DEF1B8 /* Rectangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B775C30C1CC00F2D00DEF1B8 /* Build configuration list for PBXNativeTarget "Rectangle" */;
+			buildPhases = (
+				B775C2F21CC00F2C00DEF1B8 /* Sources */,
+				B775C2F31CC00F2C00DEF1B8 /* Frameworks */,
+				B775C2F41CC00F2C00DEF1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rectangle;
+			productName = Rectangle;
+			productReference = B775C2F61CC00F2C00DEF1B8 /* Rectangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B775C2EE1CC00F2C00DEF1B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hyong;
+				TargetAttributes = {
+					B775C2F51CC00F2C00DEF1B8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B775C2F11CC00F2C00DEF1B8 /* Build configuration list for PBXProject "Rectangle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B775C2ED1CC00F2C00DEF1B8;
+			productRefGroup = B775C2F71CC00F2C00DEF1B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B775C2F51CC00F2C00DEF1B8 /* Rectangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B775C2F41CC00F2C00DEF1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B775C3031CC00F2C00DEF1B8 /* Main.storyboard in Resources */,
+				B775C2FE1CC00F2C00DEF1B8 /* RectangleShader.vsh in Resources */,
+				B775C3051CC00F2D00DEF1B8 /* Assets.xcassets in Resources */,
+				B775C3081CC00F2D00DEF1B8 /* LaunchScreen.storyboard in Resources */,
+				B775C2FC1CC00F2C00DEF1B8 /* RectangleShader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B775C2F21CC00F2C00DEF1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B775C3001CC00F2C00DEF1B8 /* GameViewController.swift in Sources */,
+				B775C31A1CC01FCE00DEF1B8 /* RectangleViewController.swift in Sources */,
+				B775C3101CC010A200DEF1B8 /* VertexInfo.swift in Sources */,
+				B775C2FA1CC00F2C00DEF1B8 /* AppDelegate.swift in Sources */,
+				B775C3121CC0115A00DEF1B8 /* Rectangle.swift in Sources */,
+				B72B50B91CD110BE006A63F3 /* Cube.swift in Sources */,
+				B775C31E1CC04E8200DEF1B8 /* ColorTrackingCamera.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B775C3011CC00F2C00DEF1B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B775C3021CC00F2C00DEF1B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B775C3061CC00F2D00DEF1B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B775C3071CC00F2D00DEF1B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B775C30A1CC00F2D00DEF1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B775C30B1CC00F2D00DEF1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B775C30D1CC00F2D00DEF1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Rectangle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyong.Rectangle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rectangle/Rectangle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B775C30E1CC00F2D00DEF1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Rectangle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyong.Rectangle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rectangle/Rectangle-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B775C2F11CC00F2C00DEF1B8 /* Build configuration list for PBXProject "Rectangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B775C30A1CC00F2D00DEF1B8 /* Debug */,
+				B775C30B1CC00F2D00DEF1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B775C30C1CC00F2D00DEF1B8 /* Build configuration list for PBXNativeTarget "Rectangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B775C30D1CC00F2D00DEF1B8 /* Debug */,
+				B775C30E1CC00F2D00DEF1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B775C2EE1CC00F2C00DEF1B8 /* Project object */;
+}
